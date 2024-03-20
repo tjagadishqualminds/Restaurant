@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundImage{
+    background-image: url('./Assets/background.png');
+    padding: 3vw;
+}
+.navBar{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    width: max-content;
+    margin: auto;
+    padding: 1vw;
+
+}
+.logo img{
+    width: 5vw;
+}
+.profileSection{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.heroSection{
+    color: #ffffff;
+}
+.titleOne{
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: cursive;
+    display: flex;
+    gap: 1vw;
+    align-items: center
+}
+.partOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2vw;
+    padding: 3vw;
+}
+.orderBtn{
+    background-color: rgb(241, 97, 97);
+    color: #ffffff;
+    width: fit-content;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer
+}
+.titleOneHeading{
+    color: #ffffff;
+font-size: x-large;
+font-weight: 500;
+font-family: cursive;
+font-size: 40px;
+}
+.list{
+    margin: 3px;
+}
+.orderSection{
+    align-items: center;
+    display: flex;
+    gap: 1vw;
+}
+.pricePower{
+    padding: 8px;
+    color: rgb(245 154 36);
+}
+.price{
+    font-weight: 800;
+    font-size: x-large;
+}
+.socialMedia{
+    position: fixed;
+    right: 3vw;
+    top: 25vw;
+    color: #ffffff
+}
+.heroSectionTwo{
+    background: #41414d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding: 1vw;
+    
+}
+
+.partOneHero .partOneImg{
+    width: 25vw;
+    
+}
+.slice{
+    color: rgb(245 154 36);
+    font-size: xx-large;
+    font-family: cursive;
+    
+}
+.serving{
+    font-size: 4vh;
+    font-weight: bolder
+}
+
+.design{
+    width: 40vw;
+}
+
+.partTwoHero{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw
+}
+
+.formalinSection{
+    display: flex;
+    gap: 2vw;
+}
+
+.readMoreBtn{
+    background-color: rgb(245 154 36);
+    color: #ffffff;
+    width: fit-content;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer
+}
+.rich{
+    font-family: "Whisper", cursive;
+    font-weight: 400;
+    font-style: normal;
+        font-size: xx-large;
+        margin-left: 5px;
+    }
+    .dishes{
+        background: #41414d;
+}
+.dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+}
+.headingOne{
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: 900;
+
+}
+.carts{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;     
+}
+
+
+.cartOne{
+    background-color: #ffffff;
+    padding: 1vw;
+}
+.CartImg img{
+    width: 20vw;
+}
+.cartDetails{
+    display: flex;
+}
+.cartDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+.priceCart{
+    display: flex;
+    gap: 1vw;
+}
+.CartPrice{
+    text-decoration: line-through;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.headingTwo{
+    color: #ffffff;
+
+}
+
+.carts{
+    margin-top: 5vh;
+}
+.SectionBtn{
+    background-color: rgb(241, 97, 97);
+    color: #ffffff;
+    width: fit-content;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer
+}
+.cartHeading{
+    font-size: larger;
+    font-weight: 500;
+}
+.CartPrice{
+    color: orange;
+}
+
+.bannerBack{
+    background-image: url('./Assets/BannerImg.png');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: cover;
+    display: flex;
+
+}
+
+.bannerTextOne{
+    color: rgb(245 154 36);
+    font-size: xx-large;
+    font-family: cursive;
+    
+}
+.bannerTextTwo{
+    font-size: 4vh;
+    font-weight: bolder;
+    color: #ffffff;
+}
+.bannerBtnOrder{
+        background-color: rgb(245 154 36);
+        color: #ffffff;
+        width: fit-content;
+        padding: 1vw;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: bold;
+        cursor: pointer;
+}
+.bannerBackground{
+    display: flex;
+}
+.bannerText{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 15vw;
+}
+
+
+.heroSectionTwoBest{
+    background: #41414d;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding: 1vw;
+    flex-direction: row-reverse;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #41414d;
+}
+.meetourteam{
+    background: #41414d;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding: 3vh;
+    
+}
+
+.chiefPhotos{
+    display: flex;
+    gap: 2vw;
+}
+.profileOne{
+    background: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    align-items: center;
+}
+.profileTwo{
+    background: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+}
+.profileThree{
+    background: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5vw;
+}
+.profileName{
+    font-size: large;
+    font-weight: 900;
+}
+.profileTitle{
+    color: gray;
+}
+.manager{
+    background-color: rgb(14, 14, 31);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 3vh;
+}
+.managerName{
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: 900;
+}
+.imgManager img{
+    border-radius: 50%;
+    width: 10vw;
+}
+.managerProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.managerPara{
+    width: 50vw;
+}
+.meetHeadingOne{
+    font-weight: 900;
+    font-size: xx-large;
+    
+}
+.lastest{
+    background: #41414d;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    align-items: center;
+    gap: 1vw;
+    padding: 2vw
+}
+.lastestHeading{
+    font-size: xx-large;
+    color: #ffffff;
+    font-weight: 900;
+}
+.kartOne{
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    
+}
+.KartHeading{
+    font-size: large;
+    font-weight: 900;
+    
+}
+.KartPara{
+    color: gray;
+}
+.date{
+    display: flex;
+    gap: 5vw;
+    border-top: 1px solid gray;
+    padding: 10px;
+    color: gray;
+}
+.kartData{
+    padding: 0.5vw;
+}
+.kartData {
+    padding: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.readmore{
+    font-size: large;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
+.lastestKarts{
+    display: flex;
+    gap: 2vw;
+}
+.imgKart img{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    background: #505076;
+    padding: 5vh;
+    justify-content: center;
+    align-items: baseline;
+    gap: 6vw;
+    color: #ffffff;
+}
+.footerOneLogo img{
+    width: 10vw;
+}
+.footerPara{
+    font-size: medium;
+    font-weight: 500;
+
+}
+.footerOne{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.footerLocation{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.PhoneLocation{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.EmailLocation{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+.footerTwo{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.footerHeading{
+    width: max-content;
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+.subscribeHeading{
+    width: max-content;
+    font-size: large;
+    font-weight: 600;
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.email{
+    display: flex;
+}
+.emailtest{
+    display: flex;
+    gap: 5vw;
+    border: 1px solid;
+    align-items: center;
+
+}
+.emaisLogo{
+    background-color: orange;
+    padding: 5px;
+}
+.socialMediaLogos{
+    display: flex;
+    gap: 0.75vw;
+    align-items: center;
+}
