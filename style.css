@@ -373,10 +373,13 @@ font-size: 40px;
 .KartHeading{
     font-size: large;
     font-weight: 900;
+    width: 15vw;
     
 }
 .KartPara{
     color: gray;
+    width: 15vw;
+
 }
 .date{
     display: flex;
@@ -402,6 +405,7 @@ font-size: 40px;
 .lastestKarts{
     display: flex;
     gap: 2vw;
+    margin-left: 40px;
 }
 .imgKart img{
     width: 100%;
